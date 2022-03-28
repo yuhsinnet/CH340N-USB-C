@@ -1591,7 +1591,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 207.01 73.025 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 1ed8b24b-cd25-4583-98e4-aed9a7451e4a)
     (property "Reference" "TP5" (id 0) (at 203.708 66.675 90))
     (property "Value" "TestPoint" (id 1) (at 203.708 69.215 90))
@@ -1671,14 +1671,14 @@
     (in_bom yes) (on_board yes)
     (uuid 588c1e41-6e7d-4663-9833-3ee3d386ce28)
     (property "Reference" "U1" (id 0) (at 41.91 106.68 0))
-    (property "Value" "XC6206PxxxMR" (id 1) (at 41.91 109.22 0))
+    (property "Value" "XC6206P332MR" (id 1) (at 41.91 109.22 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 41.91 108.585 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf" (id 3) (at 41.91 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C161345" (id 4) (at 46.99 120.65 0))
+    (property "LCSC" "C5446" (id 4) (at 46.99 120.65 0))
     (pin "1" (uuid 207f3b04-5d05-4d5e-a65c-613b60a18274))
     (pin "2" (uuid 960d231c-d8b4-44a6-89ee-5c9c3c3c9d72))
     (pin "3" (uuid 022fd48e-5adf-4517-be85-752807a48858))
@@ -1797,7 +1797,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x05_Female") (at 128.27 165.735 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 74379aa8-e0f4-496a-ac00-bea54bfede3a)
     (property "Reference" "J2" (id 0) (at 127 167.0051 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1942,7 +1942,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 207.01 38.1 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 92b3f96e-4673-4f7c-84d5-9cc858573923)
     (property "Reference" "TP1" (id 0) (at 203.708 31.75 90))
     (property "Value" "TestPoint" (id 1) (at 203.708 34.29 90))
@@ -1956,7 +1956,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 207.01 46.99 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 96066fe1-f77b-478d-9b2d-0f1adc727f12)
     (property "Reference" "TP2" (id 0) (at 203.708 40.64 90))
     (property "Value" "TestPoint" (id 1) (at 203.708 43.18 90))
@@ -1970,7 +1970,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 207.01 64.77 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 98476643-1dc3-4cb2-875f-ffa29d752e72)
     (property "Reference" "TP4" (id 0) (at 203.708 58.42 90))
     (property "Value" "TestPoint" (id 1) (at 203.708 60.96 90))
@@ -2130,7 +2130,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 207.01 55.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid d9461d13-f8bc-497b-b540-f733f84103d7)
     (property "Reference" "TP3" (id 0) (at 203.708 49.53 90))
     (property "Value" "TestPoint" (id 1) (at 203.708 52.07 90))
@@ -2245,7 +2245,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 207.01 81.28 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid fbf8ac89-c320-46e2-b575-18008179d8e3)
     (property "Reference" "TP6" (id 0) (at 203.708 74.93 90))
     (property "Value" "TestPoint" (id 1) (at 203.708 77.47 90))
@@ -2414,7 +2414,7 @@
       (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/588c1e41-6e7d-4663-9833-3ee3d386ce28"
-      (reference "U1") (unit 1) (value "XC6206PxxxMR") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "U1") (unit 1) (value "XC6206P332MR") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/91268679-0504-4215-80ad-210abd1d6da6"
       (reference "U2") (unit 1) (value "CH340N") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
