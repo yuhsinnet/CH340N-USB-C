@@ -1698,7 +1698,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x05_Female") (at 128.27 165.735 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 74379aa8-e0f4-496a-ac00-bea54bfede3a)
     (property "Reference" "J2" (id 0) (at 127 167.0051 0)
       (effects (font (size 1.27 1.27)) (justify left))
