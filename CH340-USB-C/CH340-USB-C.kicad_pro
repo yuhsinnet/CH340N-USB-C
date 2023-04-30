@@ -472,6 +472,10 @@
       {
         "netclass": "pwr",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "pwr",
+        "pattern": "Net-(J2-Pin_4)"
       }
     ]
   },
