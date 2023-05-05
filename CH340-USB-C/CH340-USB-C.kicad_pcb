@@ -1137,7 +1137,7 @@
     (path "/94c62325-1ff7-4ed9-a4fb-2d80fc4bb6f9")
     (attr exclude_from_pos_files)
     (net_tie_pad_groups "1, 2, 3")
-    (fp_text reference "SW1" (at 0 1.8) (layer "B.SilkS")
+    (fp_text reference "SW1" (at 0 1.8) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 142af485-7b3b-4690-b0ee-6c9548c273b6)
     )
