@@ -1598,7 +1598,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 119.38 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b18ba2d-911e-4158-946f-cf3efe79c35e)
     (property "Reference" "JP1" (at 119.38 168.91 0)
       (effects (font (size 1.27 1.27)))
@@ -1963,6 +1963,9 @@
     (property "Datasheet" "~" (at 118.11 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C49678" (at 118.11 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6d91bd3a-3599-421f-8e03-c570d2acc017))
     (pin "2" (uuid e8f612dc-9e1e-4bdb-a9d7-4f783a58a573))
     (instances
@@ -2119,7 +2122,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push_SPDT") (at 142.24 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 94c62325-1ff7-4ed9-a4fb-2d80fc4bb6f9)
     (property "Reference" "SW1" (at 142.24 109.22 0)
       (effects (font (size 1.27 1.27)))
@@ -2266,6 +2269,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C49678" (at 124.46 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fe4f833b-ca39-416a-ae80-afd6afb85be8))
